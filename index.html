@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="">
+<meta name="description" content="ここに説明文を設定">
+<title>ナカツドイ</title>
+
+
+
+<!-- 公開の際必要なmeta情報 課題時はコメントでも可です 
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@twitteraccount">
+<meta property="og:site_name" content="サイト名">
+<meta property="og:title" content="サイトタイトル">
+<meta property="og:description" content="サイト説明文">
+<meta property="og:url" content="https://hoge.ecc.com/">
+<meta property="og:image" content="https://hoge.ecc.com/ogp.png">
+<meta property="og:type" content="website">
+<link rel="shortcut icon" href="http://www.hoge.hoge/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" href="http://www.hoge.hoge/logo.png">
+-->
+
+<!-- ページのスタイルはheadの最後に記載 -->
+<link rel="stylesheet" href="css/ress.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<header>
+    <div>
+        <h1><img src="img/logo.png" alt=""></h1>
+    </div>
+    <div class="selectBar">
+        <h2 class="selectItem" id="recs"><a href="">おすすめ</a></h2>
+        <h2 class="selectItem" id="follow"><a href="">ナカマ</a></h2>
+    </div>
+</header>
+<main>
+    <div class="columnItem">
+        <div class="columnLink">
+            <a href="https://www.usj.co.jp/web/ja/jp"></a>
+            <div>
+                <button class="clip-btn modalOpen" data-modal="0"></button>
+            </div>
+            <div class="columnImg">
+                <img src="img/eventImg01.jpeg" alt="">
+                <button class="followTgl modalOpen" data-modal="1">３人のナカマが気になっています</button>
+                <div class="serviceImg">
+                    <img src="img/parkingImg.png" alt="">
+                </div>
+            </div>
+                
+            <div class="topText">
+                <h3>ユニバーサル・スタジオ・ジャパン</h3>
+                <p>大阪市此花区</p>
+            </div>
+        </div>
+        <div class="tag">
+            <a href="">#人気スポット</a>
+            <a href="">#テーマパーク</a>
+        </div>
+    </div>
+
+
+    <div id="modal1" class="modal">
+        <div class="modal-inner">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>気になるを表示するナカマ</h2>
+                </div>
+                <!-- <form action="" method="post"> -->
+                    <div class="modal-body">
+                        <p>
+                            <input type="checkbox" value="tanaka" name="front" id="tanakaClip" checked> <label for="tanakaClip">田中</label>
+                            <input type="checkbox" value="yamada" name="front" id="yamadaClip"> <label for="yamadaClip">山田</label>
+                            <input type="checkbox" value="sasaki" name="front" id="sasakiClip"> <label for="sasakiClip">佐々木</label>
+                        </p>                
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" class="close" value="気になるを送信">
+                    </div>
+                <!-- </form> -->
+            </div>
+        </div>
+    </div>
+    <!-- モーダル2 -->
+    <div id="modal2" class="modal">
+        <div class="modal-inner">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>気になるしたナカマ</h2>
+                </div>
+                <form action="talk.html" method="post">
+                    <div class="modal-body">
+                        <p>
+                            <input type="radio" value="tanaka" name="front" id="tanaka" checked> <label for="tanaka">田中</label>
+                            <input type="radio" value="yamada" name="front" id="yamada"> <label for="yamada">山田</label>
+                            <input type="radio" value="sasaki" name="front" id="sasaki"> <label for="sasaki">佐々木</label>
+                        </p>                
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" class="close" value="誘う">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="columnItem">
+        <div class="columnLink">
+            <a href="https://www.usj.co.jp/web/ja/jp"></a>
+            <div>
+                <button class="clip-btn modalOpen" data-modal="0"></button>
+            </div>
+            <div class="columnImg">
+                <img src="img/eventImg01.jpeg" alt="">
+                <button class="followTgl modalOpen" data-modal="1">３人のナカマが気になっています</button>
+                <div class="serviceImg">
+                    <img src="img/parkingImg.png" alt="">
+                </div>
+            </div>
+                
+            <div class="topText">
+                <h3>ユニバーサル・スタジオ・ジャパン</h3>
+                <p>大阪市此花区</p>
+            </div>
+        </div>
+        <div class="tag">
+            <a href="">#人気スポット</a>
+            <a href="">#テーマパーク</a>
+        </div>
+    </div>
+
+    <div class="columnItem">
+        <div class="columnLink">
+            <a href="https://www.usj.co.jp/web/ja/jp"></a>
+            <div>
+                <button class="clip-btn modalOpen" data-modal="0"></button>
+            </div>
+            <div class="columnImg">
+                <img src="img/eventImg01.jpeg" alt="">
+                <button class="followTgl modalOpen" data-modal="1">３人のナカマが気になっています</button>
+                <div class="serviceImg">
+                    <img src="img/parkingImg.png" alt="">
+                </div>
+            </div>
+                
+            <div class="topText">
+                <h3>ユニバーサル・スタジオ・ジャパン</h3>
+                <p>大阪市此花区</p>
+            </div>
+        </div>
+        <div class="tag">
+            <a href="">#人気スポット</a>
+            <a href="">#テーマパーク</a>
+        </div>
+    </div>
+
+
+    <div class="columnItem">
+        <div class="columnLink">
+            <a href="https://www.usj.co.jp/web/ja/jp"></a>
+            <div>
+                <button class="clip-btn modalOpen" data-modal="0"></button>
+            </div>
+            <div class="columnImg">
+                <img src="img/eventImg01.jpeg" alt="">
+                <button class="followTgl modalOpen" data-modal="1">３人のナカマが気になっています</button>
+                <div class="serviceImg">
+                    <img src="img/parkingImg.png" alt="">
+                </div>
+            </div>
+                
+            <div class="topText">
+                <h3>ユニバーサル・スタジオ・ジャパン</h3>
+                <p>大阪市此花区</p>
+            </div>
+        </div>
+        <div class="tag">
+            <a href="">#人気スポット</a>
+            <a href="">#テーマパーク</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="columnItem">
+        <div class="columnLink">
+            <a href="https://www.usj.co.jp/web/ja/jp"></a>
+            <div class="columnImg">
+                <img src="img/eventImg02.jpeg" alt="">
+                <button class="followTgl modalOpen" data-modal="modal1">１人のナカマが気になっています</button>
+                <div>
+                    <button class="clip-btn modalOpen" data-modal="modal2"></button>
+                </div>
+                <div class="serviceImg">
+                    <img src="img/freeImg.png" alt="">
+                    <img src="img/parkingImg.png" alt="">
+            </div>
+            </div>
+                
+                <div class="topText">
+                    <h3>クリスマスマーケット in てんしば</h3>
+                    <p>大阪市天王寺区</p>
+                </div>
+        </div>
+        <div class="tag">
+            <a href="">#クリスマス</a>
+            <a href="">#インスタ映え</a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</main>
+<footer>
+    <div class="footerBar">
+        <img class="footerBack" src="img/footerBar.png" alt="">
+        <div class="footerCont">
+            <a href="index.html"><img class="footerItem1" src="img/homeImg.png" alt=""><p>ホーム</p></a>
+            <a href="search.html"><img class="footerItem1" src="img/searchImg.png" alt=""><p>検索</p></a>
+            <a href="create.html"><img class="footerItem2" src="img/createImg.png" alt=""><p class="create">ツドイ作成</p></a>
+            <a href="clip.html"><img class="footerItem1" src="img/likeImg.png" alt=""><p>気になる</p></a>
+            <a href="nakama.html"><img class="footerItem1" src="img/talkImg.png" alt=""><p>ナカマ</p></a>
+        </div>
+    </div>
+
+</footer>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

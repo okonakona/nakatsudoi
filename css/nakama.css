@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Hiragino Maru Gothic Std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    position: absolute;
+    position: fixed;
+    bottom: -5px;
+    z-index: 20;
+
+}
+
+
+.footerBack{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.footerCont{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    text-align: center;
+    .footerItem1{
+        width: 50%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .footerItem2{
+        width: 70%;
+        text-align: center;
+    }
+    p{
+        color: #ffffff;
+        margin: -5px;
+    }
+    .create{
+        margin: 5px;
+        font-size: 1.3rem;
+    }
+
+}
+
+
+
